@@ -1,6 +1,6 @@
 import os
 import sys
-DATA_LOCATION = "Data"
+DATA_LOCATION = "FullData"
 
 if not os.path.exists(DATA_LOCATION):
     os.makedirs(DATA_LOCATION)
