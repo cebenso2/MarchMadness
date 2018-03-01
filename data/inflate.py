@@ -5,7 +5,7 @@ DATA_LOCATION = "full"
 if not os.path.exists(DATA_LOCATION):
     os.makedirs(DATA_LOCATION)
 else:
-    print("Data directory already exists. Remove this folder")
+    print("Data directory already exists")
     sys.exit(0)
 os.chdir(DATA_LOCATION)
 
