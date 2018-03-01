@@ -1,3 +1,3 @@
 echo "Inflating Data"
-cd Data
+cd data
 python3.6 inflate.py
